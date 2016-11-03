@@ -1,0 +1,36 @@
+<!--
+Copyright (c) 2012 The Chromium Authors. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file.
+-->
+
+<html>
+<head>
+<link rel="stylesheet" href="style/bootstrap.min.css">
+<link rel="stylesheet" href="style/style.css">
+<script src="style/jquery.min.js"></script>
+<script src="style/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-group col-sm-8">
+    <label for="trackNumber">输入快递单号:</label>
+    <input type="text" class="form-control" id="trackNumber" placeholder="12344566">
+    <button type="button" class="btn btn-primary search" id="search">查询</button>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="col-sm-16">
+    <div id="container"></div>
+  </div>
+</div>
+<p id="test"></p>
+
+</body>
+
+<script src="page.js" type="text/javascript"></script>
+
+</html>
