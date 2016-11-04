@@ -11,19 +11,24 @@ $(document).ready(function(){
       $.ajax({
         type:"GET",
         async:true,
-        url:"http://www.kuaidi100.com/query?type=shunfeng",
+        // url:"http://www.kuaidi100.com/query?type=shunfeng",
+        url:"http://www.kuaidi100.com/query?type=zhongtong",
         data:{postid:$("#trackNumber").val()},
         success:function(data) {
           // DO SOMETHING
+                $("#container").html("<ul id='result'></ul>");
                 var resp = JSON.parse(data);
                 if(resp["status"]==="200"){
-                  $("#container").html(resp.toString());
+                  console.log(resp);
+                  for (var d of resp["data"]){
+                      console.log(d);
+                      console.log(d["time"] + " : " + d["context"]);
+                      $("#result").append("<li>" + d["time"] + " : " + d["context"] + "</li>");
+                  }
                 }else{
-                  // $("#container").html(resp["message"].toString());
-                  $("#container").html("<ul id='result'></ul>");
                   for (var key in resp) {
                     if (resp.hasOwnProperty(key)) {
-                      console.log(key + " : " + resp[key]);
+                      // console.log(key + " : " + resp[key]);
                       $("#result").append("<li>" + key + " : " + resp[key].toString() + "</li>");
                     }
                   }
