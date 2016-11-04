@@ -18,6 +18,15 @@ $(document).ready(function(){
                 var resp = JSON.parse(data);
                 if(resp["status"]==="200"){
                   $("#container").html(resp.toString());
+                }else{
+                  // $("#container").html(resp["message"].toString());
+                  $("#container").html("<ul id='result'></ul>");
+                  for (var key in resp) {
+                    if (resp.hasOwnProperty(key)) {
+                      console.log(key + " : " + resp[key]);
+                      $("#result").append("<li>" + key + " : " + resp[key].toString() + "</li>");
+                    }
+                  }
                 }
 
 
