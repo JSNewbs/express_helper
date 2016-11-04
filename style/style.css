@@ -1,6 +1,9 @@
 body {
   font-family: monospace;
   word-wrap: break-word;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
 }
 
 #container {

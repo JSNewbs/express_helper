@@ -15,8 +15,12 @@ $(document).ready(function(){
         data:{postid:$("#trackNumber").val()},
         success:function(data) {
           // DO SOMETHING
-              console.log(data);
-              $("#container").html(data);
+                var resp = JSON.parse(data);
+                if(resp["status"]==="200"){
+                  $("#container").html(resp.toString());
+                }
+
+
             }
       });
     // });
