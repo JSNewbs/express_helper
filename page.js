@@ -3,6 +3,7 @@ $(document).ready(function(){
   console.log("document is ready.");
   $("#search").click(function(){
     // $("#container").html($("#trackNumber").text());
+    //for test, we can use type = shunfeng and postid = 608582127345
     console.log("search clicked");
     $("#container").html("查询的快递号：" + $("#trackNumber").val());
     $("#search").click(function(e){
