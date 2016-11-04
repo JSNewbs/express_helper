@@ -1,0 +1,12 @@
+body {
+  font-family: monospace;
+  word-wrap: break-word;
+}
+
+#container {
+  white-space: pre;
+}
+
+.search {
+  float:right;
+}
