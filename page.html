@@ -5,29 +5,41 @@ found in the LICENSE file.
 -->
 
 <html>
+
 <head>
-<link rel="stylesheet" href="style/bootstrap.min.css">
-<link rel="stylesheet" href="style/style.css">
-<script src="style/jquery.min.js"></script>
-<script src="style/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="style/jquery.min.js"></script>
+    <script src="style/bootstrap.min.js"></script>
 
 </head>
 
 <body>
-  <div class="container">
-    <div class="form-group col-sm-8">
-    <label for="trackNumber">输入快递单号:</label>
-    <input type="text" class="form-control" id="trackNumber" placeholder="12344566">
-    <button type="button" class="btn btn-primary search" id="search">查询</button>
-    </div>
-  </div>
+    <div class="container">
+        <div class="form-group col-sm-8">
 
-<div class="container">
-  <div class="col-sm-16">
-    <div id="container"></div>
-  </div>
-</div>
-<p id="test"></p>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="expressType">请选择快递公司:</label>
+                    <select class="form-control" id="expressType">
+                      <option value="shunfeng">顺丰</option>
+                      <option value="yuantong">圆通</option>
+                      <option value="zhongtong">中通</option>
+                      <option value="shentong">申通</option>
+                    </select>
+                    <label for="trackNumber">输入快递单号:</label>
+                    <input type="text" class="form-control" id="trackNumber" placeholder="12344566">
+                    <button type="button" class="btn btn-primary search" id="search">查询</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-sm-16">
+            <div id="container"></div>
+        </div>
+    </div>
 
 </body>
 
