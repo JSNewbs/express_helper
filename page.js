@@ -34,8 +34,8 @@ $(document).ready(function() {
                 } else {
                     for (var key in resp) {
                         if (resp.hasOwnProperty(key)) {
-                            $("#container").html("");
-                            $("#container").append("<p>" + key + " : " + resp[key].toString() + "</p>");
+                            $("#container").html("<div class='alert alert-danger' id='error'></div>");
+                            $("#error").append("<p>参数错误</p>");
                         }
                     }
                 }

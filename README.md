@@ -1,12 +1,13 @@
 # Express helper
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)]
+(https://github.com/JSNewbs/express_helper/blob/master/LICENSE.txt)
 
 ### A convenient way to track your package in Chrome Browser
 
 ## Installation
 
-**express helper** can be installed from [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)
+**express helper** can be installed from [Chrome Web Store](https://chrome.google.com/webstore/detail/express-helper/mlikhhcddekiepmagohoklonboibillj)
 
 ## Usage
 
