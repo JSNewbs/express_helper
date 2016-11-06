@@ -6,7 +6,7 @@
 
 ## Installation
 
-**express helper** can be installed from [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)
+**express helper** can be installed from [Chrome Web Store](https://chrome.google.com/webstore/detail/express-helper/mlikhhcddekiepmagohoklonboibillj)
 
 ## Usage
 
