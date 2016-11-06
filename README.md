@@ -1,6 +1,7 @@
 # Express helper
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)]
+(https://github.com/JSNewbs/express_helper/blob/master/LICENSE.txt)
 
 ### A convenient way to track your package in Chrome Browser
 
