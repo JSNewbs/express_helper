@@ -1,15 +1,19 @@
 {
   "name": "Express Helper",
-  "description": "Tracking your package easily",
-  "version": "0.0",
-
+  "description": "A convenient way to track your package in Chrome Browser",
+  "version": "1.0.0",
+  "icons": {
+  "16": "icon.png",
+  "48": "icon48.png",
+  "128": "icon128.png"
+  },
   "permissions": [
     "tabs", "http://*/*", "https://*/*"
   ],
   "browser_action": {
       "default_title": "Print this page",
       "default_popup": "page.html",
-      "default_icon": "print_16x16.png"
+      "default_icon": "icon.png"
   },
   "manifest_version": 2
 }
