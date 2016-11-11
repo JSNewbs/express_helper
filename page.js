@@ -1,6 +1,14 @@
 console.log("start of page.js");
 $(document).ready(function() {
     console.log("document is ready.");
+    $('#trackNumber').keypress(function (e) {
+      if (e.which == 13) {
+        e.preventDefault();
+        $('#search').click();
+        return false;    //<---- Add this line
+      }
+    });
+
     $("#search").click(function(e) {
           //for test, we can use type = shunfeng and postid = 608582127345
         console.log("search clicked");
