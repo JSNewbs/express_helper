@@ -5,7 +5,7 @@ $(document).ready(function() {
       if (e.which == 13) {
         e.preventDefault();
         $('#search').click();
-        return false;    //<---- Add this line
+        return false;    
       }
     });
 
@@ -33,6 +33,7 @@ $(document).ready(function() {
 
                 var resp = JSON.parse(data);
                 if (resp["status"] === "200") {
+                    $("tbody").empty();
                     for (var d of resp["data"]) {
                         $("#container").hide();
                         $("table").show();
