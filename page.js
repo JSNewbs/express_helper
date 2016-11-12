@@ -5,7 +5,7 @@ $(document).ready(function() {
       if (e.which == 13) {
         e.preventDefault();
         $('#search').click();
-        return false;    //<---- Add this line
+        return false;    
       }
     });
 
