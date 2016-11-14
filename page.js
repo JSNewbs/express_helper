@@ -1,11 +1,9 @@
-console.log("start of page.js");
-$(document).ready(function() {
-    console.log("document is ready.");
-    $('#trackNumber').keypress(function (e) {
+var events = {
+  init: function(){$('#trackNumber').keypress(function (e) {
       if (e.which == 13) {
         e.preventDefault();
         $('#search').click();
-        return false;    
+        return false;
       }
     });
 
@@ -53,4 +51,13 @@ $(document).ready(function() {
             }
         });
     });
+
+  }
+}
+
+
+console.log("start of page.js");
+$(document).ready(function() {
+    console.log("document is ready.");
+    events.init();
 });
