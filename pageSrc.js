@@ -1,4 +1,4 @@
-const API_URL = "http://www.kuaidi100.com/query"
+const API_URL = "http://www.kuaidi100.com/query";
 
 var events = {
     init: function() {
