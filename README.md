@@ -5,6 +5,12 @@
 
 ### A convenient way to track your package in Chrome Browser
 
+## Development
+```
+npm install
+npm run watchDev
+```
+
 ## Installation
 
 **express helper** can be installed from [Chrome Web Store](https://chrome.google.com/webstore/detail/express-helper/mlikhhcddekiepmagohoklonboibillj)
