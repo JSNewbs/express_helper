@@ -12,7 +12,7 @@
 ## Usage
 
 Simply select the express company and input your package number, and click "查询"，and there you go !!!
-![](img/express_helper.png)
+![](img/express_helper_use.gif)
 
 ## License
 
