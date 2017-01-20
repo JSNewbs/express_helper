@@ -1,1 +1,5 @@
+node_modules
+page.js
+page.js.map
 .DS_Store
+npm-debug.log

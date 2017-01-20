@@ -1,0 +1,21 @@
+{
+  "name": "express_helper",
+  "version": "1.0.0",
+  "description": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)] (https://github.com/JSNewbs/express_helper/blob/master/LICENSE.txt)",
+  "main": "page.js",
+  "scripts": {
+    "build": "babel pageSrc.js --out-file page.js",
+    "watchDev": "babel pageSrc.js --out-file page.js --watch"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
