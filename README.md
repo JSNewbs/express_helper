@@ -1,6 +1,6 @@
 # Express helper
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)]
+![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
 (https://github.com/JSNewbs/express_helper/blob/master/LICENSE.txt)
 
 ### A convenient tool to track packages from a Chrome Browser
@@ -11,7 +11,9 @@
 
 ## Instructions
 
+
 Select the courier service provider, input the package number, and click "查询". The application will return the package information!!
+
 ![](img/express_helper_use.gif)
 
 ## License

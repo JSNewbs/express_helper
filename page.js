@@ -8,8 +8,7 @@ var events = {
     });
 
     $("#search").click(function(e) {
-          //for test, we can use type = shunfeng and postid = 608582127345
-        console.log("search clicked");
+        //for test, we can use type = shunfeng and postid = 608582127345
         // disable search button
         $("#search").prop("disabled", true);
 
@@ -55,9 +54,6 @@ var events = {
   }
 }
 
-
-console.log("start of page.js");
 $(document).ready(function() {
-    console.log("document is ready.");
     events.init();
 });
