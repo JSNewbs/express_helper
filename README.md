@@ -1,17 +1,19 @@
 # Express helper
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)]
+![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
 (https://github.com/JSNewbs/express_helper/blob/master/LICENSE.txt)
 
-### A convenient way to track your package in Chrome Browser
+### A convenient tool to track packages from a Chrome Browser
 
 ## Installation
 
-**express helper** can be installed from [Chrome Web Store](https://chrome.google.com/webstore/detail/express-helper/mlikhhcddekiepmagohoklonboibillj)
+**express helper** The application can be installed from [Chrome Web Store](https://chrome.google.com/webstore/detail/express-helper/mlikhhcddekiepmagohoklonboibillj)
 
-## Usage
+## Instructions
 
-Simply select the express company and input your package number, and click "查询"，and there you go !!!
+
+Select the courier service provider, input the package number, and click "查询". The application will return the package information!!
+
 ![](img/express_helper_use.gif)
 
 ## License
